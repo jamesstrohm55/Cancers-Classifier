@@ -1,0 +1,34 @@
+
+---
+
+## 🧪 Model Workflow
+
+1. **Load and preprocess data**
+2. **Apply PCA** to reduce dimensions for better visualization
+3. **Forward propagation**:
+   - Compute `z = w·x + b`
+   - Apply `sigmoid(z)` to get predictions
+4. **Backward propagation**:
+   - Compute gradients of loss w.r.t weights and bias
+5. **Update weights** using gradient descent
+6. **Evaluate** using accuracy, loss curves, and confusion matrix
+
+---
+
+## 📈 Outputs
+
+- PCA plots showing separation of cancer classes
+- Training loss over epochs
+- Confusion matrix and accuracy score
+
+---
+
+## ⚙️ Setup
+
+### Requirements
+- Python 3.7+
+- Any IDE (e.g., Jupyter Notebook, VSCode)
+- Libraries: NumPy, Pandas, Matplotlib, Scikit-learn
+
+### Install dependencies
+pip install numpy pandas matplotlib scikit-learn
