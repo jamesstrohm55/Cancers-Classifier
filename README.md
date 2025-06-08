@@ -27,3 +27,7 @@ To build a custom logistic regression model using only NumPy, showcasing how can
 - Breast Cancer Wisconsin Diagnosis dataset CV
 - classifier.py
 
+git clone https://github.com/jamesstrohm55/Cancers-Classifier.git
+cd Cancers-Classifier
+
+
